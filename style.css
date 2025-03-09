@@ -1,0 +1,63 @@
+body{
+    background-color: #8c2ceb;
+}
+
+#game{
+    border: #241434 ;
+    border: 15px solid;
+    border-radius: 10px;
+    background-color: #b87df0;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+#buttons{
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+button{
+    font-size: 40px;
+    padding: 20px;
+    background-color: #241434;
+    color: #b87df0;
+    border-radius: 20px;
+}
+
+#results{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+#drawCase{
+    margin: 20px;
+    font-size: 30px;
+}
+
+#scoreBoard{
+    margin: 20px;
+    font-size: 30px;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+#winner {
+    margin: 20px;
+    font-size: 30px;
+    animation: blink 1s infinite;
+    display: flex;
+    justify-content: center;
+}
+
+
